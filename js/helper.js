@@ -64,17 +64,10 @@ The Internationalize Names challenge found in the lesson Flow Control from JavaS
 */
 $(document).ready(function() {
   $('button').click(function() {
-<<<<<<< HEAD
+
     var $name = $('#name');
     var iName = inName($name.text()) || function(){};
     $name.html(iName);
-||||||| merged common ancestors
-    var iName = inName() || function(){};
-    $('#name').html(iName);  
-=======
-    var iName = inName() || function(){};
-    $('#name').html(iName);
->>>>>>> 1a910b6b235262956ac9db639c0f234d32d34655
   });
 });
 
