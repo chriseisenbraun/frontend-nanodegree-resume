@@ -1,3 +1,17 @@
+
+// Header
+var name = "Chris Eisenbraun"
+var formattedName = HTMLheaderName.replace("%data%", name);
+
+var role = "Code Janitor";
+var formattedRole = HTMLheaderRole.replace("%data%", role);
+
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);
+
+
+
+
 var work = {
     "jobs": [{
         "employer": "Google",
@@ -134,3 +148,4 @@ function displayWork() {
 }
 
 displayWork();
+
